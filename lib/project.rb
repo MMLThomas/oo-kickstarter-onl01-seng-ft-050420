@@ -7,8 +7,9 @@ class Project
   end
   
   def add_backer(name)
-    @backers << Baker.name
-    
+    name = Baker.name
+    @backers << name
+    name.backed_projects
   end
   
 end

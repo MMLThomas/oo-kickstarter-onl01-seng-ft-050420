@@ -6,4 +6,6 @@ class Project
     @backers = []
   end
   
+  add_backer
+  
 end
